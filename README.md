@@ -6,4 +6,4 @@ Uhhh if you want to run this yourself, here're the reqs:
 
 - [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 - [ffmpeg](https://ffmpeg.org/download.html)
-- 
+- too lazy to just type the args into yt-dl in the first place :)
