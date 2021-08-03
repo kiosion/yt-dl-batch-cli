@@ -224,5 +224,9 @@ goto startmenu
 :dla3
 goto menu1
 
+:menu2
+cls
+goto startmenu
+
 :menu3
 exit
