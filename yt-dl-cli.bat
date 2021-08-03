@@ -43,7 +43,6 @@ echo +================= YOUTUBE-DL-CLI =================+
 echo ^|--------------------------------------------------^|
 echo ^|                 Starting script ^/                ^|
 echo +==================================================+
-cd temp\
 goto startmenu
 
 :startmenu
@@ -64,7 +63,7 @@ if "!%urls%!"=="! !" (
     echo ^|     Error: No URL(s) provided, reloading...      ^|
     echo +==================================================+
     timeout /t 1 /nobreak > NUL
-    goto menu2
+    goto startmenu
 )
 echo +================= YOUTUBE-DL-CLI =================+
 echo ^|--------------------------------------------------^|
