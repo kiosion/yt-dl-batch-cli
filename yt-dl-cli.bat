@@ -145,7 +145,7 @@ goto startmenu
 
 :dlv2
 cls
-echo ^|================= YOUTUBE-DL-CLI =================^|
+echo +================= YOUTUBE-DL-CLI =================+
 echo ^|--------------------------------------------------^|
 echo URL(s) to download: %urls%
 echo .
